@@ -1,0 +1,133 @@
+@import url('../css/fonts.css');
+
+
+html, body{
+
+       margin: 0%;
+       box-sizing: border-box;
+       overflow: hidden;
+       background-image: url("https://i.ibb.co/9ZX5RjT/photo-1467453678174-768ec283a940.jpg");
+       background-size: cover; /* Para ajustar a imagem ao tamanho da tela */
+       background-position: center; /* Para centralizar a imagem no fundo */
+       
+}
+
+:root{
+
+    /*Tabela de Cores*/ 
+    --text-green: #6ac673;
+    --text-light: #9fce97da;
+    --bg-colr: #697469;
+    --white: #ffffff;
+    --midnight: #5d9b59;
+    --verdeif: #266816;
+
+
+    /* gradientes */
+    --sky: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+
+  /* font=familly temas*/
+  --Abel:'Abel', cursive;
+  --Anton: 'Anton', cursive;
+  --Josefin: 'Josefin', cursive;
+  --Lexend: 'Lexend', cursive;
+  --livvic: 'Livvic', cursive;
+
+}
+
+/* -------------- GLOBAL ------------ */
+a{
+    text-decoration: none;
+    color: var(--text-green);
+
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* -------x------ GLOBAL -----x----- */
+
+/* ----------- NAV ----------- */
+
+.nav{
+ background-color: var(--verdeif); /* Altere a cor para a desejada */
+ padding: 0 2rem; /* Pesquisar: Unidade de Medida de CSS Modernos rem, vh em)*/
+ height: 0rem;
+ min-height: 20vh;
+ overflow: hidden;
+ 
+}
+
+.nav .nav-logo a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Lexend);
+
+}
+.nav .nav-menu{
+    margin-top: 0%;
+    margin: 0;
+
+    
+}
+
+.nav .nav-itens{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-itens .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Abel);
+}
+
+.nav .nav-itens .nav-link:hover {
+    background-color: var(--midnight);
+}
+
+.nav .nav-itens .nav-link:hover a{
+     color:var(--white);
+}
+
+.nav .social{
+    padding: 1.4rem 0;
+}
+
+.nav .social i{
+    padding: 0.2 rem;
+    margin-right: 10px; /* Adicione a margem desejada aqui */
+}
+
+.nav .social i:hover{
+    color: var(--midnight);
+}
+
+/* ... */
+
+
+
+
+/* ... */
+
+/* ... */
+
+
+
+
+    
+/* ----X-------- NAV -----X------- */
+
+
